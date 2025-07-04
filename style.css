@@ -987,7 +987,7 @@ footer {
 
   /* Tampilkan ikon hamburger menu */
   .navbar-extra {
-    display: inline-block;
+    display: block;
   }
 
   .hero-section-2 p,
