@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budaya Cirebon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2 class="sidebar-title">Menu</h2>
+        <button
+          class="sidebar-close"
+          id="sidebar-close"
+          aria-label="Tutup Menu"
+        >
+          <img src="x.svg" alt="Tutup" class="icon-menu" />
+        </button>
+      </div>
+      <ul class="sidebar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="budaya.html">Budaya</a></li>
+        <li><a href="wisata.html">Wisata</a></li>
+        <li><a href="kuliner.html">Kuliner</a></li>
+      </ul>
+      <div class="sidebar-theme">
+        <button class="theme" id="sidebar-theme-toggle">Dark Mode</button>
+      </div>
+    </div>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <header>
+      <nav class="container">
+        <h1 class="kabupaten">Cirebon</h1>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="budaya.html">Budaya</a></li>
+            <li><a href="wisata.html">Wisata</a></li>
+            <li><a href="kuliner.html">Kuliner</a></li>
+          </ul>
+          <button class="theme" id="theme-toggle">Dark Mode</button>
+        </div>
+        <div class="navbar-extra">
+          <a href="#" id="hamburger-menu" aria-label="Buka Menu">
+            <img src="menu.svg" alt="Menu" class="icon-menu" />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero-section1-1">
+        <div class="hero3">
+          <div class="hero-text-cirebon reveal reveal-left">
+            <h1 class="hero-text-1">Budaya Cirebon</h1>
+            <p>
+              Mari jelajahi budaya Cirebon yang <br />sarat makna dan keindahan.
+            </p>
+          </div>
+          <div class="hero-image-container-3">
+            <img
+              class="bg-image-2"
+              src="4.jpg"
+              alt="Penari Topeng"
+              loading="lazy"
+            />
+            <img
+              class="overlay-element-3 reveal reveal-right"
+              src="tari-hero.png"
+              alt="Ornamen Tari"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="budaya reveal reveal-up">
+        <h2 class="hero-text">Budaya Khas Cirebon</h2>
+        <p class="intro">
+          Cirebon memiliki kekayaan budaya yang khas, hasil perpaduan antara
+          Jawa, Sunda, Tionghoa, dan Arab. Setiap seni dan tradisi memiliki
+          filosofi mendalam yang masih lestari hingga kini.
+        </p>
+      </section>
+
+      <div class="budaya-grid">
+        <div class="budaya-item">
+          <img src="tari-topeng.png" alt="Tari Topeng Cirebon" loading="lazy" />
+          <h3>Tari Topeng</h3>
+          <p>
+            Tarian klasik yang menggunakan topeng sebagai simbol karakter,
+            dibawakan dalam pertunjukan adat atau spiritual dengan gerakan khas
+            dan mendalam.
+          </p>
+        </div>
+
+        <div class="budaya-item">
+          <img src="tari-sintren.png" alt="Tari Sintren" loading="lazy" />
+          <h3>Tari Sintren</h3>
+          <p>
+            Tarian magis dengan unsur mistik, ditarikan oleh perempuan dengan
+            mata tertutup dan diiringi irama gamelan serta syair mantra.
+          </p>
+        </div>
+
+        <div class="budaya-item">
+          <img src="membatik.png" alt="Batik Mega Mendung" loading="lazy" />
+          <h3>Batik Mega Mendung</h3>
+          <p>
+            Motif batik berbentuk awan dengan warna-warna mencolok, melambangkan
+            ketenangan, kesabaran, dan filosofi hidup orang Cirebon.
+          </p>
+        </div>
+
+        <div class="budaya-item">
+          <img src="burok.png" alt="Burokan" loading="lazy" />
+          <h3>Burokan</h3>
+          <p>
+            Tradisi rakyat berupa parade boneka binatang raksasa seperti singa
+            atau macan, biasanya muncul di perayaan khitanan atau Maulid Nabi.
+          </p>
+        </div>
+      </div>
+
+      <section class="budaya-video reveal reveal-up">
+        <h3 class="hero-text reveal reveal-up">
+          Video Singkat Budaya Khas Cirebon
+        </h3>
+
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HElS9pppvow?si=jA2a8PWymmNpKRtV"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="footer-container">
+        <div class="footer-name reveal reveal-up">ajril faturrohim</div>
+        <nav
+          class="footer-links reveal reveal-up"
+          aria-label="Social media links"
+        >
+          <a
+            class="footer-link"
+            href="https://github.com/ajril222"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="github.svg" alt="GitHub" class="icon-social" />
+          </a>
+          <a
+            class="footer-link"
+            href="https://www.instagram.com/jill.xtt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="instagram.svg" alt="Instagram" class="icon-social" />
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Kembali ke atas">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
